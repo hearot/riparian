@@ -1,0 +1,34 @@
+namespace IO;
+
+// A simple file manager. This entity
+// is public, so you can access it by
+// importing IO.
+//
+// Example:
+//
+//   namespace Main;
+//
+//   import IO;
+//
+//   entrypoint function main() {
+//       var file = IO\File@{path="a/simple/path"};
+//       file->write("This is a file!");
+//   }
+public entity File {
+    // ...
+
+    // A simple function that is used to write into
+    // a file. This function is public, so you can access it by
+    // importing IO and declaring a variable using the File entity.
+    //
+    // See the above example.
+    public method write(output: String) {
+        // ...
+    } 
+}
+
+// The output manager. This is declared
+// using the File entity. This is private,
+// so you can't access it except in the IO source
+// files.
+var out = File@{};

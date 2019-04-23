@@ -1,0 +1,18 @@
+namespace IO;
+
+// The simplest function ever: print.
+// This function is public, so you can access it
+// by importing IO.
+//
+// Example:
+//
+//   namespace Main;
+//
+//   import IO;
+//
+//   entrypoint function main() {
+//       IO->print("Hello world!\n"); 
+//   }
+public function print(output: String) {
+    out->writeLine(output); // That's just an example
+}

@@ -1,0 +1,7 @@
+namespace Main; // You can execute a Bosque script only if the namespace is Main!
+
+import IO; // Import the IO package (default version is "v0.0.1")
+
+entrypoint function main() {
+    IO->print("Hello world!"); // Call the print function
+}

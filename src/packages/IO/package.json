@@ -1,0 +1,13 @@
+{
+    "name": "IO",
+    "description": "A simple I/O manager.",
+    "default_version": "v0.0.1",
+    "versions": [
+        "dev",
+        "v0.0.1"
+    ],
+    "author": {
+        "name": "Hearot <gabriel@hearot.it>"
+    },
+    "license": "MIT"
+}

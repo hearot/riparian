@@ -1,0 +1,10 @@
+namespace Main; // You can execute a Bosque script only if the namespace is Main!
+
+import IO version "dev"; // Import the IO package, but use the "dev" version
+
+entrypoint function main() {
+    var file = IO\File@{} // Example! The File entity should require a "path" parameter
+
+    file->write("Hello ");
+    file->writeLine("file!"); // Output should be: "Hello file!\n"
+}
