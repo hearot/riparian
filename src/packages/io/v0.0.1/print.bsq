@@ -13,6 +13,6 @@ namespace IO;
 //   entrypoint function main() {
 //       IO->print("Hello world!\n"); 
 //   }
-public function print(output: String) {
+exported function print(output: String) {
     out->writeLine(output); // That's just an example
 }
